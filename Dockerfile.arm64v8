@@ -1,3 +1,5 @@
+ARCH=arm64v8
+
 FROM arm64v8/alpine:latest
 
 RUN apk add --no-cache openvpn
